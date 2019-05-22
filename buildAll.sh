@@ -1,3 +1,4 @@
+#! /bin/sh
 for dirname in */
 do
     version=$(echo $dirname | sed 's/\///')
